@@ -24,7 +24,7 @@ const updateQuestionDaily = () => {
   currentQuestion = getRandomQuestion();
   setInterval(() => {
     currentQuestion = getRandomQuestion();
-  }, 30000); // 24 hours in milliseconds
+  }, 86400000); // 24 hours in milliseconds
 };
 
 // Set initial random question
